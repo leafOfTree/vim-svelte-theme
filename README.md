@@ -10,21 +10,19 @@ You can use your favourite plugin manager. For example,
 
 - Use [VundleVim][2]
 
-        Plugin 'leafOfTree/vim-svelte-plugin'
+        Plugin 'leafOfTree/vim-svelte-theme'
 
 - Use [vim-pathogen][5]
 
         cd ~/.vim/bundle && \
-        git clone https://github.com/leafOfTree/vim-svelte-plugin
+        git clone https://github.com/leafOfTree/vim-svelte-theme --depth 1
 
 - Use [vim-plug][7]
 
-        Plug 'leafOfTree/vim-svelte-plugin'
+        Plug 'leafOfTree/vim-svelte-theme'
         :PlugInstall
 
-- Or manually, clone this plugin, drop it in custom `path/to/this_plugin`, and add it to `rtp` in vimrc
-
-        set rpt+=path/to/this_plugin
+- Or manually, clone this plugin, put `vim-svelte-theme/colors/svelte.vim` in `vimfiles/colors`
 
 ## Usage
 
