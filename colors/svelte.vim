@@ -1,6 +1,8 @@
 " Vim color file
 " svelte
-" Created by  with ThemeCreator (https://github.com/mswift42/themecreator)
+"
+" Maintainer: leafOfTree <leafvocation@gmail.com>
+" Created with ThemeCreator (https://github.com/mswift42/themecreator)
 " Ref https://svelte.dev/repl/hello-world?version=3.9.1
 
 hi clear
@@ -11,7 +13,6 @@ endif
 
 set t_Co=256
 let g:colors_name = "svelte"
-
 
 " Define reusable colorvariables.
 let s:bg="#f6fafd"
@@ -36,7 +37,7 @@ let s:warning2="#e47e0a"
 
 exe 'hi Normal guifg='s:fg' guibg='s:bg 
 exe 'hi Cursor guifg='s:bg' guibg='s:fg 
-exe 'hi CursorLine  guibg='s:bg2 
+exe 'hi CursorLine  guibg='s:bg2' ctermbg=LightGrey'
 exe 'hi CursorColumn  guibg='s:bg2 
 exe 'hi ColorColumn  guibg='s:bg2 
 exe 'hi LineNr guifg='s:fg2' guibg='s:bg2 
@@ -80,7 +81,7 @@ exe 'hi Tag guifg='s:keyword
 exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type gui=None guifg='s:type 
-exe 'hi Underlined gui=underline'
+exe 'hi Underlined gui=underline cterm=None'
 
 " vim-svelte-plugin highlighting
 exe 'hi svelteBrace guifg='s:fg
@@ -113,7 +114,7 @@ exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:var
 
 " Html Highlighting
-exe 'hi htmlLink guifg='s:var' gui=underline'
+exe 'hi htmlLink guifg='s:var' gui=underline cterm=None'
 exe 'hi htmlStatement guifg='s:keyword
 exe 'hi htmlSpecialTagName guifg='s:keyword
 
