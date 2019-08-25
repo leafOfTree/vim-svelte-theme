@@ -1,4 +1,4 @@
-A vim svelte theme, based on <https://svelte.dev/examples#hello-world> web style, created by [ThemeCreator][0].
+A vim svelte theme, based on <https://svelte.dev/examples#hello-world> web style, created with [ThemeCreator][0].
 
 ## Screenshot
 
