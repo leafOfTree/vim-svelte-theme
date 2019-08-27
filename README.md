@@ -22,7 +22,7 @@ You can use your favourite plugin manager. For example,
         Plug 'leafOfTree/vim-svelte-theme'
         :PlugInstall
 
-- Or manually, clone this plugin, put `vim-svelte-theme/colors/svelte.vim` in `vimfiles/colors`
+- Or manually, clone this plugin, then put `vim-svelte-theme/colors/svelte.vim` in `vimfiles/colors`
 
 ## Usage
 
