@@ -1,4 +1,4 @@
-A vim svelte theme, based on <https://svelte.dev/examples#hello-world> web style, created with [ThemeCreator][0].
+A vim svelte theme, based on <https://svelte.dev/repl/hello-world?version=3.9.1> webpage style, created with [ThemeCreator][0].
 
 ## Screenshot
 
@@ -12,12 +12,12 @@ You can use your favourite plugin manager. For example,
 
         Plugin 'leafOfTree/vim-svelte-theme'
 
-- Use [vim-pathogen][5]
+- Use [vim-pathogen][3]
 
         cd ~/.vim/bundle && \
         git clone https://github.com/leafOfTree/vim-svelte-theme --depth 1
 
-- Use [vim-plug][7]
+- Use [vim-plug][4]
 
         Plug 'leafOfTree/vim-svelte-theme'
         :PlugInstall
@@ -34,3 +34,6 @@ You can use your favourite plugin manager. For example,
 
 [0]: http://mswift42.github.io/themecreator/
 [1]: https://github.com/leafOfTree/vim-svelte-plugin
+[2]: https://github.com/VundleVim/Vundle.vim
+[3]: https://github.com/tpope/vim-pathogen
+[4]: https://github.com/junegunn/vim-plug
