@@ -88,6 +88,11 @@ exe 'hi svelteBrace guifg='s:fg
 exe 'hi svelteBlockKeyword guifg='s:fg
 exe 'hi htmlTag guifg='s:keyword
 exe 'hi htmlEndTag guifg='s:keyword
+exe 'hi htmlTagN guifg='s:keyword
+exe 'hi htmlTagName guifg='s:keyword
+exe 'hi htmlAttrEqual guifg='s:keyword
+exe 'hi htmlArg guifg='s:builtin
+exe 'hi htmlAttr guifg='s:builtin
 
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin
