@@ -26,7 +26,7 @@ You can use your favourite plugin manager. For example,
 
 ## Usage
 
-    :color svelte
+    color svelte
 
 ## See also
 
