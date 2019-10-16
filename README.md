@@ -2,7 +2,7 @@ A vim svelte theme, based on <https://svelte.dev/repl/hello-world?version=3.9.1>
 
 ## Screenshot
 
-<img alt="screenshot" src="https://raw.githubusercontent.com/leafOfTree/leafOfTree.github.io/master/vim-svelte-theme.png" width="600" />
+<img alt="screenshot" src="https://raw.githubusercontent.com/leafOfTree/leafOfTree.github.io/master/vim-svelte-theme.png" width="300" />
 
 ## Install
 
