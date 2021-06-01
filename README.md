@@ -26,7 +26,7 @@ You can use your favourite plugin manager. For example,
         Plug 'leafOfTree/vim-svelte-theme'
         :PlugInstall
 
-## Manual 
+### Manual
 
 - Clone this plugin, then copy `vim-svelte-theme/colors/svelte.vim` to `colors/svelte.vim` under any `runtimepath`
 
