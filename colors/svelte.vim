@@ -1,9 +1,9 @@
 " Vim color file
 " svelte
 "
-" Maintainer: leafOfTree <leafvocation@gmail.com>
-" Created with ThemeCreator (https://github.com/mswift42/themecreator)
-" Ref https://svelte.dev/repl/hello-world?version=3.9.1
+" Maintainer: leafOfTree <https://github.com/leafOfTree>
+" Credit: created with ThemeCreator (https://github.com/mswift42/themecreator)
+" Ref: https://svelte.dev/repl
 
 hi clear
 

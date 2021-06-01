@@ -1,8 +1,12 @@
-A vim svelte theme, based on <https://svelte.dev/repl/hello-world?version=3.9.1> webpage style, created with [ThemeCreator][0].
-
-## Screenshot
-
+<p align="center">
 <img alt="screenshot" src="https://raw.githubusercontent.com/leafOfTree/leafOfTree.github.io/master/vim-svelte-theme.png" width="300" />
+</p>
+
+A vim svelte theme, based on <https://svelte.dev/repl> webpage style, created with [ThemeCreator][0]
+
+## Usage
+
+    color svelte
 
 ## Installation
 
@@ -14,7 +18,7 @@ You can use your favourite plugin manager. For example,
 
 - Use [vim-pathogen][3]
 
-        cd ~/.vim/bundle && \
+        cd ~/.vim/bundle
         git clone https://github.com/leafOfTree/vim-svelte-theme --depth 1
 
 - Use [vim-plug][4]
@@ -22,11 +26,11 @@ You can use your favourite plugin manager. For example,
         Plug 'leafOfTree/vim-svelte-theme'
         :PlugInstall
 
-- Or manually, clone this plugin, then put `vim-svelte-theme/colors/svelte.vim` in `vimfiles/colors`
+## Manual 
 
-## Usage
+- Clone this plugin, then copy `vim-svelte-theme/colors/svelte.vim` to `colors/svelte.vim` under any `runtimepath`
 
-    color svelte
+- Or simply copy the file [svelte.vim][5] to `colors/svelte.vim`
 
 ## See also
 
@@ -37,3 +41,4 @@ You can use your favourite plugin manager. For example,
 [2]: https://github.com/VundleVim/Vundle.vim
 [3]: https://github.com/tpope/vim-pathogen
 [4]: https://github.com/junegunn/vim-plug
+[5]: https://raw.githubusercontent.com/leafOfTree/vim-svelte-theme/master/colors/svelte.vim
